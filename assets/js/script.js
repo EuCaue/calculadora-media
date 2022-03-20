@@ -13,18 +13,26 @@ const inputNumber = Number(inputNumberRaw.value);
 let total;
 let totalN = 0;
 let totalD = 0;
+let btnAmount = 0; 
 res.innerHTML = '';
+
 
 // Cria o botão de limpar e exbi ele na tela.
 function displayClear() {
    const btnClear = document.createElement("input"); 
    //btnClear.innerHTML = 'Limpar';
-   btnClear.value = 'Limpar'
+   btnClear.value = 'Limpar';
    btnClear.type = 'button';
    btnClear.id = 'btnClear';
-
-   divBtn.appendChild(btnClear) 
-   getClearValues();
+   // condição so para exbir um botão na tela.
+    if (btnAmount === 0) {
+        divBtn.appendChild(btnClear);
+        getClearValues();
+        btnAmount++; 
+    }
+        
+    
+   
 }
 
 // Triger para o botão de limpar, limpandos o HTML necessário e zerando todas as variaveis de controle.
@@ -35,6 +43,7 @@ function getClearValues () {
       total = 0;
       totalN = 0;
       totalD = 0;
+      btnAmount = 0;
       totalValue.length = 0;
       res.innerHTML = '';
     }) 
