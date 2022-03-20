@@ -80,7 +80,7 @@ main {
 
 #addValue:hover {
     background-color: #cc8645;
-
+    cursor: pointer;
 }
 
 
@@ -102,6 +102,7 @@ main {
 
 #btnCalculate:hover {
     background-color: #be4622;
+    cursor: pointer;
 }
 
 #showResults { 
@@ -124,6 +125,7 @@ footer {
 }
 
 #btnClear {
+    border: none;
     align-items: center;
     text-align: center;
     margin: 20px auto;
@@ -137,4 +139,5 @@ footer {
 
 #btnClear:hover {
     background-color: #dacc94;
+    cursor: pointer;
 }
