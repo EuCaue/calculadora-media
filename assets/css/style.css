@@ -1,3 +1,4 @@
+/* Importando as fontes :D */
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Architects+Daughter&family=Bebas+Neue&family=Concert+One&family=Fira+Sans&family=Open+Sans:wght@400;700&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
@@ -142,6 +143,8 @@ footer {
     cursor: pointer;
 }
 
+
+/* Tirando as setinhas do input number*/
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

@@ -85,6 +85,7 @@ inputNumberRaw.addEventListener('keypress', (e) => {
 // Trigger para botão de adicionar valor.
 addValue.addEventListener('click', (e) => {    
     addValueArray();
+	inputNumberRaw.focus();
 });
 
 // Botão de calclular, chamandos as funções somar e mostrar o botão de limpar.
